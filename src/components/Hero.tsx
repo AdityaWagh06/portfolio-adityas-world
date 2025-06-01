@@ -4,7 +4,11 @@ import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
+<<<<<<< HEAD
   const roles = ["AI Developer", "Web Devloper", "AIML Enthusiast" ,"Photographer", "Gym Trainer"];
+=======
+  const roles = ["AI Developer", "Web Crafter", "Emotion Mapper"];
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -105,7 +109,11 @@ const Hero = () => {
           >
             <div className="relative">
               <div className="w-20 h-20 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full flex items-center justify-center text-4xl animate-bounce">
+<<<<<<< HEAD
                 ⚯ ͛
+=======
+                🤖
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
               </div>
               <motion.div
                 animate={{ rotate: 360 }}
@@ -128,7 +136,11 @@ const Hero = () => {
             transition={{ duration: 2, repeat: Infinity }}
             className="text-white/60 cursor-pointer"
           >
+<<<<<<< HEAD
             <ChevronDown className="w-5 h-5" />
+=======
+            <ChevronDown className="w-8 h-8" />
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
           </motion.div>
         </motion.div>
       </div>

@@ -50,18 +50,30 @@ const Projects = () => {
       demo: "#"
     },
     {
+<<<<<<< HEAD
       title: "Educational Website ",
       description: "learning platform with interactive skills",
       tech: ["Appwrite", "Tailwindcss", "React", "Node.js"],
       category: "Web Dev",
       special: " Reallife usefull programs",
+=======
+      title: "EdTech Skill Platform",
+      description: "Full-stack learning platform with interactive skill tracking",
+      tech: ["MongoDB", "Express", "React", "Node.js"],
+      category: "Web Dev",
+      special: "Gamified learning with progress tracking",
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
       github: "#",
       demo: "#"
     },
     {
       title: "Smart OCR Excel Generator",
       description: "Automated data extraction from images to Excel using OCR",
+<<<<<<< HEAD
       tech: ["Python", "Tesseract", "OpenCV", "Pandas, OpenAI"],
+=======
+      tech: ["Python", "Tesseract", "OpenCV", "Pandas"],
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
       category: "Tools",
       special: "99% text extraction accuracy",
       github: "#",

@@ -27,19 +27,37 @@ const Footer = () => {
               className="text-center md:text-left mb-6 md:mb-0"
             >
               <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+<<<<<<< HEAD
                
+=======
+                <span className="text-lg font-semibold text-white">
+                  Built with
+                </span>
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
                 <motion.div
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 1, repeat: Infinity }}
                 >
+<<<<<<< HEAD
                   
                 </motion.div>
                 
+=======
+                  <Heart className="w-5 h-5 text-red-400" />
+                </motion.div>
+                <span className="text-lg font-semibold text-white">
+                  &
+                </span>
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
                 <motion.div
                   animate={{ rotate: [0, 10, -10, 0] }}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
+<<<<<<< HEAD
                   
+=======
+                  <Brain className="w-5 h-5 text-purple-400" />
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
                 </motion.div>
                 <span className="text-lg font-semibold text-white">
                   by Aditya Wagh
@@ -92,7 +110,11 @@ const Footer = () => {
             className="mt-8 pt-6 border-t border-white/10 text-center"
           >
             <p className="text-white/50 text-sm">
+<<<<<<< HEAD
               © 2025 Aditya Wagh. All rights reserved. • 
+=======
+              © 2024 Aditya Wagh. All rights reserved. • 
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
               <span className="text-purple-400"> Crafted with React & Emotion</span>
             </p>
           </motion.div>

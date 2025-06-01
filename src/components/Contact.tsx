@@ -1,9 +1,16 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FiGithub, FiLinkedin, FiMail, FiSend } from 'react-icons/fi';
+<<<<<<< HEAD
 import { FaPinterestP } from 'react-icons/fa';
 
+=======
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
 
 const Contact = () => {
   const { ref, inView } = useInView({
@@ -29,6 +36,7 @@ const Contact = () => {
     }
   };
 
+<<<<<<< HEAD
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -65,6 +73,23 @@ const Contact = () => {
     { icon: FiLinkedin, href: "https://www.linkedin.com/in/aditya-wagh25/", label: "LinkedIn", color: "hover:text-blue-400" },
     { icon: FiMail, href: "mailto:adityawagh2525@gmail.com", label: "Email", color: "hover:text-purple-400" },
     { icon: FaPinterestP, href: "https://pin.it/5d6e0fHpi", label: "Pinterest", color: "hover:text-red-400" }
+=======
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitted(true);
+    
+    // Reset form after 3 seconds
+    setTimeout(() => {
+      setIsSubmitted(false);
+      setFormData({ name: '', email: '', message: '' });
+    }, 3000);
+  };
+
+  const socialLinks = [
+    { icon: FiGithub, href: "#", label: "GitHub", color: "hover:text-gray-400" },
+    { icon: FiLinkedin, href: "#", label: "LinkedIn", color: "hover:text-blue-400" },
+    { icon: FiMail, href: "mailto:aditya@example.com", label: "Email", color: "hover:text-purple-400" }
+>>>>>>> 879109783e40d7de65a02fde090c14884dc9e028
   ];
 
   return (
