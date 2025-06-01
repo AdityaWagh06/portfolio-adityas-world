@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FiChevronDown } from 'react-icons/fi';
+import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
@@ -129,7 +128,7 @@ const Hero = () => {
             transition={{ duration: 2, repeat: Infinity }}
             className="text-white/60 cursor-pointer"
           >
-            <FiChevronDown className="w-8 h-8" />
+            <ChevronDown className="w-8 h-8" />
           </motion.div>
         </motion.div>
       </div>
