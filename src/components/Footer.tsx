@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiHeart, FiBrain, FiStar } from 'react-icons/fi';
+import { Heart, Brain, Star } from 'lucide-react';
 
 const Footer = () => {
   const [showModal, setShowModal] = useState(false);
@@ -34,7 +34,7 @@ const Footer = () => {
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 1, repeat: Infinity }}
                 >
-                  <FiHeart className="w-5 h-5 text-red-400" />
+                  <Heart className="w-5 h-5 text-red-400" />
                 </motion.div>
                 <span className="text-lg font-semibold text-white">
                   &
@@ -43,7 +43,7 @@ const Footer = () => {
                   animate={{ rotate: [0, 10, -10, 0] }}
                   transition={{ duration: 2, repeat: Infinity }}
                 >
-                  <FiBrain className="w-5 h-5 text-purple-400" />
+                  <Brain className="w-5 h-5 text-purple-400" />
                 </motion.div>
                 <span className="text-lg font-semibold text-white">
                   by Aditya Wagh
@@ -83,7 +83,7 @@ const Footer = () => {
                 className="p-2 hover:bg-white/10 rounded-full transition-colors duration-200"
                 title="Something magical awaits..."
               >
-                <FiStar className="w-5 h-5 text-yellow-400" />
+                <Star className="w-5 h-5 text-yellow-400" />
               </motion.button>
             </motion.div>
           </div>
