@@ -99,7 +99,7 @@ const Footer = () => {
               © 2024 Aditya Wagh. All rights reserved. • 
               <span className="text-purple-400"> Crafted with React & Emotion</span>
             </p>
-          </div>
+          </motion.div>
         </div>
 
         {/* Background Glow */}
